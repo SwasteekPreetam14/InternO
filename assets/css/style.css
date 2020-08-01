@@ -5446,3 +5446,78 @@ del {
     font-size:22px;
     font-family: 'Rubina',sans-serif;
 }
+
+.event_items
+{
+	margin-top: 38px;
+    display: block;
+    
+}
+.event_item
+{
+	margin-bottom: 56px;
+}
+.event_item:last-child
+{
+	margin-bottom: 0px;
+}
+
+.event_name a
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #1a1a1a;
+    margin-left: 15px;
+}
+.event_name a:hover
+{
+	color: #35bf64;
+}
+.event_location
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #1a1a1a;
+	margin-top: 2px;
+}
+.event_content p
+{
+	margin-top: 21px;
+	margin-bottom: 13px;
+    margin-left: 15px;
+}
+
+.event_image img
+{
+	width: 250px;
+    margin-bottom: 10px;
+  
+}
+
+.notice-tittle h2{
+    font-size: 48px;
+    display: block;
+    color: #000a2d;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+@media (max-width: 575px){
+.notice-tittle h2{
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 15px;
+}
+     .event_name a{
+        position: relative;
+        padding-left: 80px;
+    }
+    .event_image img{
+        position: relative;
+        margin-left: 55px; 
+    }
+        .event_content p{
+        position: relative;
+        margin-left: 20px;
+ }
