@@ -7,7 +7,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <link href = "css/bootstrap.css" rel = "stylesheet" type = "text/css"/>
+        <link href="css.css" rel="stylesheet" type="text/css"/>
+        <link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -21,6 +25,7 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets\css\style1.css">
    </head>
 
    <body>
@@ -146,7 +151,61 @@ Take a moment and think about it. If you are looking to gain experience,build up
     <div id="back-top" >
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
+    <br>
+    <br>
+    <!-- Like and comment section -->
+<!------------container------->
 
+<div class="container">
+
+    <h1>COMMENT BOX</h1>
+<!-------Wrap------------>
+<div id="wrap">
+<div id="main">
+<div class="row">
+<div class="col-md-5">
+<h3 class="heading">Comments and Responses</h3>
+</div>
+<div class="col-md-7">
+<div id="upper_blank"></div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<!------------Form Start---------->
+
+<div id='form'>
+<div class="row">
+<div class="col-md-12">
+
+<form action="" method="POST" id="commentform">
+
+<div id="comment-name" class="form-row">
+<input type = "text" placeholder = "Name " name = "dname"  id = "name" >
+</div>
+<br>
+<br>
+<div id="comment-url" class="form-row">
+<input type = "text" placeholder = "College Name" name = "url"  id = "url" >
+</div>
+<br>
+<div id="comment-message" class="form-row">
+<textarea name = "comment" placeholder = "Message" id = "comment" ></textarea>
+</div>
+<br>
+<a href="#"><input type="submit" name="dsubmit" id="commentSubmit" value="Submit Comment"></a>
+<input style="width: 30px" type="checkbox" value="1" name="subscribe" id="subscribe" checked="checked">
+<p1><b>Notify me when new internship opportunities are added.</b></p1>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
     <!-- JS here -->
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -179,6 +238,7 @@ Take a moment and think about it. If you are looking to gain experience,build up
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
-        
+        <!-- Like counter and comments -->
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
